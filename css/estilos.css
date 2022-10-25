@@ -116,33 +116,44 @@ footer i:hover {
 
 }
 
+.subtitulo-form {
+    margin: 10px 0;
+
+}
+
 .main-form {
     width: 80vw;
     margin: 10px 0;
     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 121, 92, 0.6418942577030813) 49%);
-border-radius: 10px;
-padding: 10px;
-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    padding: 10px;
+    color: rgb(247, 247, 247);
     text-shadow: 0px 0 10px #000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.contenido{
+.contenido {
+
     width: 50%;
     padding: 30px;
-    text-align: center;
     border-radius: 10px;
+    text-align: center;
     box-shadow: 0 5px 10px;
 }
-.estilo-from{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
+
+.estilo-from {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
-.label{
+.label {
     color: rgb(247, 247, 247);
     text-shadow: 0px 0 10px #000;
     text-align: center;
@@ -150,19 +161,24 @@ justify-content: center;
     font-weight: 500;
 }
 
-.input{
+.input {
     display: block;
-    width: 300px;
+    width: 100%;
     border-radius: 5px;
-    font-size: 16px;
-    margin: 10px;
+    font-size: 1em;
+    margin: 10px 0;
     text-align: center;
     outline: none;
     padding: 10px;
     border: 1px solid #fff;
 }
 
-.btn-form{
+.textarea{
+    width: 100%;
+    resize: none;
+}
+
+.btn-form {
     outline: none;
     color: rgb(247, 247, 247);
     text-shadow: 0px 0 10px #000;
@@ -173,6 +189,7 @@ justify-content: center;
     padding: 10px;
     border-radius: 5px;
     font-weight: 500;
+    margin: 15px;
 }
 
 /*---fin de contacto---*/
@@ -182,17 +199,20 @@ justify-content: center;
     min-height: 80vh;
 }
 
-.df-main{
+.df-main {
     display: flex;
     justify-content: center;
 
+
 }
+
 .card-index {
     margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 
 .bg-card {
@@ -236,8 +256,41 @@ justify-content: center;
     background-color: rgb(229, 255, 83);
 }
 
-.titulos-terapias{
+.titulos-terapias {
     color: aliceblue;
-    font-family: 'Aref Ruqaa Ink', serif;}
-    
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
 /*--- fin de serivios--*/
+
+/*--- Nuestra historia--*/
+.h2-servicios{
+    background-color: rgb(91, 194, 159);
+    color: rgb(247, 247, 247);
+    text-shadow: 0px 0 10px #000;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    margin: 0;
+}
+
+#carouselExampleControls{
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+
+
+
+.mapa{
+    display: flex;
+    
+}
+
+iframe{
+    margin: auto;
+    padding: auto;
+    width: 80%;
+    height: 700px;
+}
