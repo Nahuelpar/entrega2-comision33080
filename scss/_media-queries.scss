@@ -1,0 +1,28 @@
+@media screen and (min-width:320px) and (max-width:1440px) {
+    .jumbotron {
+        height: 120%;
+    }
+
+    .formulario {
+        text-align: center;
+    }
+
+    .contenido {
+        width: 100%;
+
+        .label {
+            width: fit-content;
+            text-align: center;
+        }
+
+        .inpunt {
+            width: fit-content;
+        }
+    }
+
+    
+}
+
+@media screen and (min-width:600px) and (max-width:900px){
+    
+}

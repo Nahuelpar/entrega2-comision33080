@@ -1,0 +1,29 @@
+$verde-claro: rgb(91, 194, 159);
+$azul: rgb(38, 43, 121);
+$celeste-card: rgb(105, 194, 221);
+$blanco-grisaseo: rgb(247, 247, 247);
+
+
+
+@mixin flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+@mixin sizes ($width , $height) {
+    height: $height;
+    width: $width;
+}
+
+%iconitos {
+    letter-spacing: 10px;
+    font-size: 50px;
+    color: $verde-claro;
+
+    &:hover {
+
+        transform: scale(0.9);
+    }
+}

@@ -1,0 +1,300 @@
+.fa-envelope, .fa-square-instagram, .fa-whatsapp, .fa-facebook {
+  letter-spacing: 10px;
+  font-size: 50px;
+  color: rgb(91, 194, 159);
+}
+.fa-envelope:hover, .fa-square-instagram:hover, .fa-whatsapp:hover, .fa-facebook:hover {
+  transform: scale(0.9);
+}
+
+@media screen and (min-width: 320px) and (max-width: 1440px) {
+  .jumbotron {
+    height: 120%;
+  }
+  .formulario {
+    text-align: center;
+  }
+  .contenido {
+    width: 100%;
+  }
+  .contenido .label {
+    width: fit-content;
+    text-align: center;
+  }
+  .contenido .inpunt {
+    width: fit-content;
+  }
+}
+.navbar {
+  background-color: rgb(91, 194, 159);
+}
+
+.navbar-brand {
+  color: rgb(38, 43, 121);
+  font-family: "Aref Ruqaa Ink", serif;
+  text-shadow: 0px 0 5px rgb(255, 255, 255);
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  font-family: "Aref Ruqaa Ink", serif;
+  text-shadow: 0px 0 5px #000;
+}
+.nav-link :hover {
+  color: rgb(14, 50, 214);
+}
+
+.navbar-toggler-icon {
+  box-shadow: 0 0 5px #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.jumbotron {
+  background-image: url(../img/pexels-sunsetoned-7283618.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+  color: rgb(38, 43, 121);
+  text-shadow: 0 0 5px rgb(255, 255, 255);
+  margin: 0;
+  font-family: "Aref Ruqaa Ink", serif;
+}
+
+.p-jumbotron {
+  color: rgba(0, 26, 175, 0.801);
+  font-family: "Aref Ruqaa Ink", serif;
+}
+
+.h2-nuestra-historia {
+  background-color: rgb(91, 194, 159);
+  color: rgb(247, 247, 247);
+  text-shadow: 0px 0 10px #000;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 10px;
+  font-family: "Aref Ruqaa Ink", serif;
+  margin: 0;
+}
+
+.nleft {
+  background-image: url(../img/pexels-jonas-ferlin-3025562.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.nright h3 {
+  text-align: center;
+  font-family: "Aref Ruqaa Ink", serif;
+  color: rgb(24, 26, 24);
+  text-shadow: 0 0 5px rgb(85, 88, 86);
+}
+
+.nright p {
+  font-family: "Aref Ruqaa Ink", serif;
+}
+
+.titulos-terapias {
+  color: rgb(247, 247, 247);
+  font-family: "Aref Ruqaa Ink", serif;
+}
+
+.h2-servicios {
+  background-color: rgb(91, 194, 159);
+  color: rgb(247, 247, 247);
+  text-shadow: 0px 0 10px #000;
+  text-transform: capitalize;
+  text-align: center;
+  padding: 10px;
+  font-family: "Aref Ruqaa Ink", serif;
+  margin: 0;
+}
+
+#carouselExampleControls {
+  width: 80%;
+  margin: auto;
+  padding: auto;
+}
+
+.min-height {
+  min-height: 80vh;
+}
+
+.df-main {
+  display: flex;
+  justify-content: center;
+}
+
+.card-index {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Aref Ruqaa Ink", serif;
+}
+
+.bg-card {
+  background-color: rgb(105, 194, 221);
+  padding: 9px 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 320px;
+}
+
+.w-img {
+  width: 320px;
+}
+
+.border-card {
+  background-color: rgb(105, 194, 221);
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boton {
+  background-color: rgb(198, 233, 0);
+  padding: 10px 15px;
+  margin: 10px;
+  border-color: transparent;
+  border-radius: 10px;
+  font-family: "Aref Ruqaa Ink", serif;
+  font-size: 13px;
+  font-weight: 500;
+}
+.boton :hover {
+  background-color: rgb(229, 255, 83);
+}
+
+.contactanos {
+  font-family: "Aref Ruqaa Ink", serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.subtitulo-form {
+  margin: 10px 0;
+}
+
+.main-form {
+  width: 80vw;
+  margin: 10px 0;
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgba(9, 121, 92, 0.6418942577) 49%);
+  border-radius: 10px;
+  padding: 10px;
+  color: rgb(247, 247, 247);
+  text-shadow: 0px 0 10px #000;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenido {
+  width: 50%;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 5px 10px;
+}
+
+.estilo-from {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  color: rgb(247, 247, 247);
+  text-shadow: 0px 0 10px #000;
+  text-align: center;
+  width: 300px;
+  font-weight: 500;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 1em;
+  margin: 10px 0;
+  text-align: center;
+  outline: none;
+  padding: 10px;
+  border: 1px solid #fff;
+}
+
+.textarea {
+  width: 100%;
+  resize: none;
+}
+
+.btn-form {
+  outline: none;
+  color: rgb(247, 247, 247);
+  text-shadow: 0px 0 10px #000;
+  border: none;
+  background-color: rgba(6, 105, 235, 0.603);
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: 500;
+  margin: 15px;
+}
+
+.mapa {
+  display: flex;
+}
+
+iframe {
+  margin: auto;
+  padding: auto;
+  height: 700px;
+  width: 80%;
+}
+
+footer {
+  background-color: rgb(28, 29, 29);
+  color: rgb(91, 194, 159);
+  text-shadow: 0px 0 10px #000;
+  text-align: center;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "Aref Ruqaa Ink", serif;
+  padding: 20px;
+}
+
+.fa-facebook {
+  text-shadow: 0 0 5px rgba(10, 63, 240, 0.918);
+}
+
+.fa-whatsapp {
+  text-shadow: 0 0 5px rgba(63, 240, 10, 0.726);
+}
+
+.fa-square-instagram {
+  text-shadow: 0 0 5px rgba(240, 12, 12, 0.753);
+}
+
+.fa-envelope {
+  text-shadow: 0 0 5px rgba(250, 135, 27, 0.966);
+}
+
+/*# sourceMappingURL=main.css.map */

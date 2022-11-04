@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.jumbotron {
+    background-image: url(../img/pexels-sunsetoned-7283618.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    color: $azul;
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    margin: 0;
+    font-family: 'Aref Ruqaa Ink', serif;
+
+
+}
+
+.p-jumbotron {
+    color: rgba(0, 26, 175, 0.801);
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.h2-nuestra-historia {
+    background-color: $verde-claro;
+    color: $blanco-grisaseo ;
+    text-shadow: 0px 0 10px #000;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    margin: 0;
+}
+
+
+
+.nleft {
+    background-image: url(../img/pexels-jonas-ferlin-3025562.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+}
+
+.nright h3 {
+    text-align: center;
+    font-family: 'Aref Ruqaa Ink', serif;
+    color: rgb(24, 26, 24);
+    text-shadow: 0 0 5px rgb(85, 88, 86)
+}
+
+.nright p {
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+.titulos-terapias {
+    color: $blanco-grisaseo;
+    font-family: 'Aref Ruqaa Ink', serif;
+}
+
+
+.h2-servicios {
+    background-color: $verde-claro;
+    color: $blanco-grisaseo;
+    text-shadow: 0px 0 10px #000;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Aref Ruqaa Ink', serif;
+    margin: 0;
+}
+
+#carouselExampleControls {
+    width: 80%;
+    margin: auto;
+    padding: auto;
+}
+

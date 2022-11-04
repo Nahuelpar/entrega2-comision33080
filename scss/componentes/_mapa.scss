@@ -1,0 +1,10 @@
+.mapa{
+    display: flex;
+}
+
+iframe{
+    margin: auto;
+    padding: auto;
+   @include sizes (80% , 700px) ;
+}
+
