@@ -63,7 +63,7 @@
 }
 
 .nleft {
-  background-image: url(../img/pexels-jonas-ferlin-3025562.jpg);
+  background-image: url(../img/pexels-optima.jpg);
   background-size: cover;
   background-position: center;
   height: 450px;
@@ -157,7 +157,8 @@
   font-size: 13px;
   font-weight: 500;
 }
-.boton :hover {
+
+.boton:hover {
   background-color: rgb(229, 255, 83);
 }
 
